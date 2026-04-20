@@ -30,7 +30,7 @@ export const Hero = () => {
                     </div>
                 </div>
             </div>
-            <section className="bg-[#F2EAD3] py-4 sm:py-6 mt-0">
+            <section className="bg-[#F2EAD3] py-6 mt-4 lg:mt-10">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
                     <p className="text-xs sm:text-sm uppercase tracking-widest text-onSurfaceMuted font-poppins">
                         Trusted by leading startups and industry clients
