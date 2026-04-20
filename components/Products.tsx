@@ -8,13 +8,13 @@ import Link from "next/link";
 const PRODUCTS = [
   {
     id: "identity-code",
-    tabLabel: "Identity Code",
+    tabLabel: "Identity Verification Code",
     title: "Secure infrastructure for your users",
     description: "A secure and intelligent verification system embedded into ID cards, enabling instant verification of individuals.",
     features: [
       "Unique encrypted verification code per user.",
       "Direct integration with NIMC for real-time identity verification.",
-      "Issuer verufication through CAC registration and validation.",
+      "Issuer verification through CAC registration and validation.",
       "Reduces identity fraud and enhances trust in digital interactions."
     ],
     mediaType: "image",
@@ -25,7 +25,7 @@ const PRODUCTS = [
   },
   {
     id: "access-code",
-    tabLabel: "Access Code",
+    tabLabel: "Access Verification Code",
     title: "Total control for user access in events and schedules",
     description: "A smart access control solution that allows organisations or individuals to monitor, manage and control entry into physical or digital spaces.",
     features: [
@@ -42,7 +42,7 @@ const PRODUCTS = [
   },
   {
     id: "product-code",
-    tabLabel: "Product Code",
+    tabLabel: "Product Verification Code",
     title: "Increase product authenticity and consumer trust",
     description: "A product verification solution that ensures the authenticity of your products and builds consumer confidence.",
     features: [
@@ -196,9 +196,9 @@ const ProductRow = React.forwardRef<HTMLDivElement, ProductRowProps>(
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <div className="flex items-center space-x-2 text-xs sm:text-sm font-semibold tracking-wider text-primary uppercase mb-2">
-               <span>{product.tabLabel}</span>
+               <span className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-1.5">{product.tabLabel}</span>
             </div>
-            <h3 className="text-2xl sm:text-3xl lg:text-5xl font-display font-bold leading-tight text-onSurface">
+            <h3 className="font-display font-medium leading-tight text-onSurface">
               {product.title}
             </h3>
             <p className="text-sm sm:text-base lg:text-lg text-onSurfaceMuted mt-3 sm:mt-4 max-w-md">

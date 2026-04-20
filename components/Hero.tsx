@@ -10,7 +10,7 @@ export const Hero = () => {
                         Verification and Access Control that builds trust in a digital age
                     </h1>
                     <p className="mt-4 sm:mt-6 text-base sm:text-lg text-onSurfaceMuted leading-relaxed">
-                        IDCODE Nigeria is a tech-driven company specializing in verification and access control solutions. Through our partnership and integration with NIMC, CAC, NAFDAC and other identity services, We help businesses stay ahead of growing fraud risk and impersonation threats.
+                        IDCODE Nigeria is a tech-driven company specializing in verification and access control solutions. Through our integration with NIMC, CAC, NAFDAC and other identity services, We help businesses stay ahead of growing fraud risk and impersonation threats.
                     </p>
                     <button className="mt-6 sm:mt-8 bg-[#4ADE80] text-black text-sm sm:text-base py-2 sm:py-3 px-4 sm:px-6 rounded-3xl hover:bg-idcode-green-accent transition-colors font-medium">
                         Talk to an Expert
