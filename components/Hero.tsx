@@ -7,7 +7,7 @@ export const Hero = () => {
                 {/* Left Column */}
                 <div className="max-w-xl">
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-onSurface leading-tight">
-                        Identification, Verification and Access Control that builds trust in a digital age
+                        Seamless Verification Systems that builds trust in a digital age
                     </h1>
                     <p className="mt-4 sm:mt-6 text-base sm:text-lg text-onSurfaceMuted leading-relaxed">
                         IDCODE Nigeria is a tech-driven company specializing in verification and access control solutions. Through our integration with NIMC, CAC, NAFDAC and other identity services, We help businesses stay ahead of growing fraud risk and impersonation threats.
@@ -20,7 +20,7 @@ export const Hero = () => {
                 <div className="flex items-center justify-center order-first lg:order-last">
                     <div className="w-full h-full flex items-center justify-center">
                         <Image 
-                            src={'/identity-hero.png'} 
+                            src={'/identityhero.png'} 
                             alt="Hero Image" 
                             width={1000} 
                             height={1000} 
